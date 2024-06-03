@@ -1,0 +1,551 @@
+*{
+    margin: 0;padding: 0;list-style-type: none;text-decoration: none;
+}
+
+
+
+
+
+/*====================================================Header======================================================*/
+
+
+
+header {
+    text-decoration: none;   background-color: rgb(252, 119, 144)
+}
+
+header .location{
+    background-color: ;float: left;
+}
+
+header .number{
+    background-color: ;float: left;
+}
+
+header .icons{
+    float: left;background-color: ;font-size: 1.5em;text-decoration: none;
+}
+
+header .icons a{
+    text-decoration: none;color: black;
+}
+
+/*==================================================NAV=================================================*/
+
+nav{
+    background-color: ;
+}
+
+
+nav .logoimg img{
+    width: 160px;height: 70px;
+}
+
+nav ul{
+    margin-top: 2%;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+/* nav ul li {
+    float: left;
+    color: black;
+    margin-right: 2%;
+    border: 1px solid transparent; 
+    border-radius: 10px;
+    transition: border-color 0.5s, color 0.5s, width 0.5s, height 0.5s, text-align 0.5s; 
+}
+
+nav ul li:hover {
+    border-color: rgb(252, 119, 144); 
+    color: rgb(252, 119, 144);
+    width: 120px;
+    margin-right: 2%;
+    height: 30px;
+    text-align: center;
+} */
+
+nav ul li {
+    float: left;
+    color: black;
+   
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; /* Add padding to create space between text and border */
+    transition: border-color 0.5s, color 0.5s, padding 0.5s; /* Apply transitions to color, border-color, and padding */
+}
+
+nav ul li:hover {
+    border-color: rgb(252, 119, 144);
+    color: rgb(252, 119, 144);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; /* Adjust padding on hover for the desired space */
+}
+
+nav ul a button{
+  border-color: rgb(252, 119, 144);
+    color: rgb(252, 119, 144);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ .navbar .hamburger {
+  display: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==================================================Carousel=================================================*/
+
+
+.carousel {
+    margin-bottom: 4rem;height: 500px;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    /* background-size: cover;
+    background-position: center; */
+  }
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+  
+  /* rtl:end:remove */
+
+  .carousel  .carousel-inner{
+    height: 600px;
+}
+
+.carousel .carousel-inner .carouselfirst{
+    background-image: url(logo2.jpeg) ;background-position: center;background-size: cover;background-repeat: no-repeat;
+}
+
+.carousel .carousel-inner .carousalsecond{
+    background-image: url(DSC01254\ \(2\).jpg) ;background-position: center;background-size: cover;background-repeat: no-repeat;
+}
+
+.carousel .carousel-inner .carousalthird{
+    background-image: url(./Cups\ \(1\).jpeg) ;background-position: center;background-size: cover;background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/*===============================================Products=================================================*/
+
+.ourproduct{
+  position: relative;bottom: 20px;}
+
+.container-fluid .row{
+  display: flex;justify-content: center;
+}
+
+.container-fluid .row .titles{
+  display: flex;justify-content: center;margin-bottom: 20px;
+}
+
+
+.container-fluid .row .productscard{
+  height: 300px; border: solid 1px white ;border-radius: 15px;margin-bottom: 10px;
+}
+
+.container-fluid .row .productscard img{
+  width: 100%;height: 60%;border-top-left-radius: 15px;border-top-right-radius: 15px;
+}
+
+.container-fluid .row .productscard h5{
+  text-align: center;margin-top: 5%;
+}
+
+.container-fluid .row .productscard .pinkpart{
+  background-color: rgb(252, 119, 144);border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;height: 25px;margin-top: 10%;
+}
+
+.container-fluid .row .productscard .pinkpart p{
+  float: right;margin-right: 3%;
+}
+
+
+/*===============================================About US=================================================*/
+
+.aboutuscont{
+  margin-top: 2%;position: relative;bottom: 30px;display: flex;justify-content: center;
+}
+
+.aboutuscont .imagelogo {
+ display: flex;justify-content: center;
+}
+
+.aboutuscont .imagelogo img{
+  width: 80%;height: 350px;
+}
+
+.aboutuscont .aboutustitle{
+  display: flex;justify-content: center;
+}
+
+.aboutuscont .aboutustitle h4{
+  margin-top: 20px;
+}
+
+.aboutuscont .aboutustitle h4 span{
+  color: rgb(252, 119, 144);
+}
+
+.aboutuscont .aboutustitle p{
+  margin-top: 15px;
+}
+
+
+/*=============================================== Img Fixed =================================================*/
+
+.imgwidth{
+  height: 300px;
+}
+
+.imgwidth .fixedimg {
+  background-image: url('fixedimg.JPG');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%; /* Ensure the fixed image takes up the entire height of its parent */
+
+}
+
+.imgwidth .fixedimg .offer{
+  float: left;
+}
+
+.imgwidth .fixedimg .offer h4{
+  background-color: rgba(252, 119, 144,0.8);border: solid transparent;border-radius: 20px;text-align: center;
+  height: 40px;margin-top: 40px;color: white;
+}
+
+.imgwidth .fixedimg .offer h1{
+  color: white;margin-bottom: 40px;margin-top: 20px;font-size: 3em;
+}
+
+/*=========================================================== FeedBack ==============================================*/
+
+.feedback{
+ position: relative;bottom: 80px;
+}
+
+.feedback h1{
+  text-align: center;
+}
+
+.feedback hr{
+  width: 100%;height: 10px;color: #666;
+}
+
+.feedback .feedback-box {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.feedback .client-feedback {
+  font-size: 16px;
+  color: #333;
+}
+
+.feedback .client-name {
+  font-style: italic;
+  color: #666;
+}
+
+/*=========================================================== Contact US ==============================================*/
+
+.contactus iframe{
+  border-radius: 20px;
+}
+
+.contactus i{
+  color: rgb(252, 119, 144);
+}
+
+.contactus button{
+  background-color: rgb(252, 119, 144);width: 120px;height: 40px; border-radius: 10px;border: solid rgb(252, 119, 144);color: white;margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:766px){
+  nav{
+    background-color: ;
+}
+
+nav .logoimg{
+  display: flex;justify-content: center;
+}
+
+nav .logoimg img{
+    width: 200px;height: 90px;
+}
+
+nav ul{
+    margin-top: 2%;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+/* nav ul li {
+    float: left;
+    color: black;
+    margin-right: 2%;
+    border: 1px solid transparent; 
+    border-radius: 10px;
+    transition: border-color 0.5s, color 0.5s, width 0.5s, height 0.5s, text-align 0.5s; 
+}
+
+nav ul li:hover {
+    border-color: rgb(252, 119, 144); 
+    color: rgb(252, 119, 144);
+    width: 120px;
+    margin-right: 2%;
+    height: 30px;
+    text-align: center;
+} */
+
+nav ul li {
+    float: left;
+    color: black;
+   
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; /* Add padding to create space between text and border */
+    transition: border-color 0.5s, color 0.5s, padding 0.5s; /* Apply transitions to color, border-color, and padding */
+}
+
+nav ul li:hover {
+    border-color: rgb(252, 119, 144);
+    color: rgb(252, 119, 144);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px; /* Adjust padding on hover for the desired space */
+}
+
+.carousel  .carousel-inner{
+  height: 400px;
+}
+
+.ourproduct{
+  position: relative;bottom: 50px;}
+
+
+  .container-fluid .row .productscard{
+    height: 220px; border: solid 1px white ;border-radius: 15px;margin-bottom: 30px;width: 80%;
+  }
+
+  .aboutuscont .imagelogo img{
+    width: 80%;height: 220px;
+  }
+
+  nav .logoimg img{
+    width: 160px;height: 55px;
+}
+
+.aboutuscont .imagelogo img{
+  width: 100%;height: 250px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+
+
+
+
+
